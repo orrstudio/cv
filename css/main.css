@@ -50,7 +50,7 @@ section {
 }
 
 .contacts {
-  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .contact {
@@ -60,7 +60,7 @@ section {
 }
 
 .contact__type {
-  min-width: 120px;
+  min-width: 90px;
 }
 
 .experience {
@@ -78,6 +78,7 @@ section {
 .experience__name {
   font-weight: bold;
 }
+
 @media (max-width: 575px) {
   .experience {
     display: block;
