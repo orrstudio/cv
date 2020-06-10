@@ -11,6 +11,7 @@ checkbox.addEventListener('change', function () {
     }
 })
 
+// Функция замедлении времени переключателя темы
 function transition() {
     document.documentElement.classList.add('transition');
     setTimeout(function () {
