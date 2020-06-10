@@ -1,3 +1,5 @@
+//  Скрипт для переключателя страницы на чёрную тему
+
 var checkbox = document.querySelector('.theme-switch__checkbox');
 
 checkbox.addEventListener('change', function () {
