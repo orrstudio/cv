@@ -15,9 +15,12 @@ html[data-theme='dark'] {
 body {
   background-color: var(--bg-color);
 }
-/* Цвет и выпрямление текста на всей странице*/
+/* Выпрямление текста*/
+.description {
+text-align: justify;
+}
+/* Цвет на всей странице*/
 * {
-  text-align: justify;
   color: var(--secondary-color);
 }
 /* Цвет и нижний оступ текста заголовка 1-го уровня */
