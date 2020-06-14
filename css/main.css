@@ -23,6 +23,7 @@ text-align: justify;
 * {
   color: var(--secondary-color);
 }
+
 .contact__type{
     color: #ddd;
   background-color: #444;
@@ -132,6 +133,7 @@ section {
 /* Расположение кнопки темы на странице. Растояния от правого и верхнего края */
 .theme-switch-wrapper {
   position: absolute;
+  z-index: 99; 
   right: 40px;
   top: 8px;
 }
