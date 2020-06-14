@@ -3,7 +3,7 @@ html {
   font-family: Roboto, sans-serif;
   --primary-color: #2f80ed;
   --secondary-color: #333333;
-  --bg-color: rgb(240,240,240);
+  --bg-color: rgb(240, 240, 240);
 }
 /* Задаем параметры цветов темной и светлой темы (Темная тема) */
 html[data-theme='dark'] {
@@ -23,25 +23,58 @@ text-align: justify;
 * {
   color: var(--secondary-color);
 }
+.contact__type{
+    color: #ddd;
+  background-color: #444;
+  box-shadow: 0 0px 18px rgb(133, 133, 133);
+  border-radius: 4px;
+  min-width: 183px;
+  max-height: 20px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  text-indent: 5px;
+}
+
+.orrlogo {
+  background-color: black;
+  border-radius: 100px;
+  border: 2px solid #000000;
+  box-shadow: 0 0px 18px rgb(133, 133, 133);
+}
+
+img {
+  border-radius: 100px;
+  border: 2px solid #024b0e;
+  box-shadow: 0 0px 18px rgb(133, 133, 133);
+}
+
 /* Цвет и нижний оступ текста заголовка 1-го уровня */
 h1 {
-  color: var(--primary-color);
+  color: #4b43bf;
+  color: #418641;
+  text-shadow: 0 0px 18px rgb(133, 133, 133);
   margin-bottom: 0.25em;
+  font-size: 30px;
 }
 /* Цвет, размер шрифта, верхний  нижний оступ текста заголовка 2-го уровня */
 h2 {
-  color: var(--secondary-color);
-  font-size: 1em;
+  color: #4b43bf;
+  color: #418641;
+  text-shadow: 0 0px 18px rgb(133, 133, 133);
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 1em;
 }
 /* Цвет текста заголовка 3-го уровня */
 h3 {
-  color: var(--primary-color);
+  color: #4b43bf;
+  color: #418641;
+  text-shadow: 0 0px 18px rgb(133, 133, 133);
+  font-size: 30px;
 }
 /* Цвет текста ссылок */
 a {
-  color: var(--primary-color);
+  color: #2f80ed;
 }
 /* Нижний отступ и позиция текста*/
 section {
@@ -53,6 +86,7 @@ section {
   max-width: 900px;
   margin: 0 auto;
 }
+
 /* Нижний отступ текста*/
 .contacts {
   margin-bottom: 2em;
@@ -76,8 +110,14 @@ section {
 }
 
 .experience__date {
-  min-width: 185px;
-  margin-bottom: 1em;
+  color: #ddd;
+  background-color: #444;
+  box-shadow: 0 0px 18px rgb(133, 133, 133);
+  border-radius: 4px;
+  min-width: 183px;
+  max-height: 20px;
+  margin-right: 40px;
+  text-indent: 5px;
 }
 
 .experience__name {
@@ -89,11 +129,11 @@ section {
     display: block;
   }
 }
-/* Расположение кнопки на странице. Растояния от правого и верхнего края */
+/* Расположение кнопки темы на странице. Растояния от правого и верхнего края */
 .theme-switch-wrapper {
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 40px;
+  top: 8px;
 }
 
 .theme-switch-wrapper {
@@ -114,10 +154,10 @@ section {
 }
 /* Размеры переключателя темы. Высота ширина. */
 .theme-switch {
-  display: inline-block;
-  height: 15px;
+  display: inlin-block;
+  height: 19px;
   position: relative;
-  width: 30px;
+  width: 33px;
 }
 
 .theme-switch input {
@@ -125,7 +165,8 @@ section {
 }
 
 .slider {
-  background-color: #ccc;
+  background-color: rgb(200, 200, 200);
+  color: var(--secondary-color);
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -137,21 +178,22 @@ section {
 }
 /* размер и расположение переключателя кнопки темы */
 .slider:before {
-  background-color: rgb(240,240,240);
-  content: "";
-  height: 12px;
-  width: 12px;
-  top: 2px;
-  bottom: 2px;
-  left: 2px;
-  right: 2px;
+  background-color: var(--secondary-color);
+  color: var(--bg-color);
+  content: "☼";
+  height: 16.5px;
+  width: 16.5px;
+  top: 1px;
+  bottom: 1px;
+  left: 1px;
+  right: 1px;
   position: absolute;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: .8s;
+  transition: .8s;
 }
 
 input:checked + .slider {
-  background-color: var(--primary-color);
+  background-color: rgb(150, 150, 150);
 }
 /* Ход ползунка кнопки темы */
 input:checked + .slider:before {
