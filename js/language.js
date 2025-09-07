@@ -59,28 +59,48 @@ async function updateContent(lang) {
         });
     }
 
-    // Save selected language
-    localStorage.setItem('preferredLanguage', lang);
+    // Set document language
     document.documentElement.lang = lang;
+}
+
+// Get system language with fallback to English
+function getSystemLanguage() {
+    // Get browser language (e.g., 'en-US' -> 'en')
+    const browserLang = navigator.language.split('-')[0].toLowerCase();
+    
+    // Check if we support this language
+    if (languages[browserLang]) {
+        return browserLang;
+    }
+    
+    // Check for other possible language codes (like 'az' for 'az-Latn')
+    for (const [code, _] of Object.entries(languages)) {
+        if (browserLang.startsWith(code)) {
+            return code;
+        }
+    }
+    
+    // Default to English if no match found
+    return 'en';
 }
 
 // Initialize language
 function initLanguage() {
-    // Try to get language from localStorage or browser settings
-    const savedLanguage = localStorage.getItem('preferredLanguage');
-    const browserLanguage = navigator.language.split('-')[0];
-    const defaultLanguage = Object.keys(languages).includes(browserLanguage) ? browserLanguage : 'en';
-    const initialLanguage = savedLanguage || defaultLanguage;
-
+    // Always use system language, don't save preference
+    const systemLanguage = getSystemLanguage();
+    
     // Set up language selector event
     if (languageSelect) {
+        // Set the selected option to match system language
+        languageSelect.value = systemLanguage;
+        
         languageSelect.addEventListener('change', (e) => {
             updateContent(e.target.value);
         });
     }
 
     // Set initial language
-    updateContent(initialLanguage);
+    updateContent(systemLanguage);
 }
 
 // Run initialization when DOM is loaded
