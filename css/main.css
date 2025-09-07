@@ -19,21 +19,9 @@ body {
 .description {
 text-align: justify;
 }
-/* Цвет на всей странице*/
+/* Цвет на всей странице */
 * {
   color: var(--secondary-color);
-}
-
-.contact__type{
-    color: #ddd;
-  background-color: #444;
-  box-shadow: 0 0px 18px rgb(133, 133, 133);
-  border-radius: 4px;
-  min-width: 183px;
-  max-height: 20px;
-  margin-right: 10px;
-  margin-bottom: 3px;
-  text-indent: 5px;
 }
 
 .orrlogo {
@@ -88,19 +76,9 @@ section {
   margin: 0 auto;
 }
 
-/* Нижний отступ текста*/
+/* Нижний отступ для секции контактов */
 .contacts {
   margin-bottom: 2em;
-}
-
-.contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.contact__type {
-  min-width: 90px;
 }
 
 .experience {
