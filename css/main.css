@@ -145,6 +145,14 @@ html {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* Скрытие элементов управления при печати */
+@media print {
+  .theme-switch-wrapper,
+  .language-selector {
+    display: none !important;
+  }
+}
+
 /* Theme Switcher Styling */
 .theme-switch-wrapper {
   position: absolute;
