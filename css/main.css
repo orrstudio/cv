@@ -67,7 +67,7 @@ a {
 }
 /* Нижний отступ и позиция текста*/
 section {
-  margin-bottom: 3em;
+  margin-bottom: 1.5em;
   position: relative;
 }
 /* Ширина и отступы текста*/
@@ -78,14 +78,14 @@ section {
 
 /* Нижний отступ для секции контактов */
 .contacts {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .experience {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 2em;
+  margin-bottom: 0.8em;
 }
 
 .experience__date {
