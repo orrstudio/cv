@@ -14,6 +14,8 @@ html[data-theme='dark'] {
 /* Цвет тела страницы */
 body {
   background-color: var(--bg-color);
+  padding-top: 20px;
+  margin: 0;
 }
 /* Выпрямление текста*/
 .description {
@@ -43,23 +45,24 @@ h1 {
   color: #418641;
   text-shadow: 0 0px 18px rgb(133, 133, 133);
   margin-bottom: 0.25em;
-  font-size: 30px;
+  font-size: 26px;
 }
 /* Цвет, размер шрифта, верхний  нижний оступ текста заголовка 2-го уровня */
 h2 {
   color: #4b43bf;
   color: #418641;
   text-shadow: 0 0px 18px rgb(133, 133, 133);
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0;
-  margin-bottom: 1em;
+  margin-bottom: 0.8em;
 }
 /* Цвет текста заголовка 3-го уровня */
 h3 {
   color: #4b43bf;
   color: #418641;
   text-shadow: 0 0px 18px rgb(133, 133, 133);
-  font-size: 30px;
+  font-size: 22px;
+  margin-bottom: 0.8em;
 }
 /* Цвет текста ссылок */
 a {
