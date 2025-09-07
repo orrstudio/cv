@@ -1,0 +1,45 @@
+{
+  "title": "Oruc Qafarov CV",
+  "full_name": "Oruc Qafarov",
+  "position": "Information Technology Specialist",
+  "website": "Web Site:",
+  "github": "GitHub:",
+  "email": "Email:",
+  "whatsapp": "WhatsApp:",
+  "description": "I have over 25 years of experience in the IT field. I am experienced in personnel management and staff training. I have worked on the installation, integration, and technical support of various systems, including CRM and ERP platforms. I am also skilled in the installation, configuration, and technical support of smart home systems (automation devices, security cameras, and equipment), as well as in the setup and maintenance of computer networks, routers, switches, servers, and operating systems (Windows, Linux, etc.).",
+  "experience": "Experience",
+  "languages": "Languages",
+  "education": "Education",
+  "hobby": "Hobby",
+  "last_update": "Last Update",
+  "freelancer": "Freelancer",
+  "project_manager": "Project manager",
+  "cio": "Chief Information Officer (CIO)",
+  "it_manager": "Information Technology's Manager",
+  "tech_dept_manager": "Manager of Technical department",
+  "it_engineer": "IT Service engineer",
+  "present": "Present",
+  "languages_list": [
+    "Azerbaijan (Native)",
+    "Russian (Fine)",
+    "English (Technical)"
+  ],
+  "education_list": [
+    "1993 - General education. Secondary Physical-Mathemat School #56 in Baku",
+    "1997 - Bachelor. Azerbaijan Technical University. Diploma A # 009831- Radiotechnic"
+  ],
+  "hobby_list": [
+    "Programming (HTML, CSS, JavaScript, Rust, Python, Excel)",
+    "Photo and Video (Shooting, Recording and Montage)"
+  ],
+  "sip_description": [
+    "CRM and ERP system integration and staff training in project Mobile Trade",
+    "1C trade and warehouse projects",
+    "IT Support for Servers, Networks, Surveillance Camera and other system"
+  ],
+  "company_sip": "SIP Company",
+  "company_grand_hotel": "Grand Hotel Europe Baku",
+  "company_forum": "FORUM Audit Company",
+  "company_alo_inform": "ALO inform Communication Company",
+  "company_araz_computer": "Araz Computer Company"
+}

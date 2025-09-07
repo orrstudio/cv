@@ -1,0 +1,45 @@
+{
+  "title": "Oruc Qafarov CV",
+  "full_name": "Oruc Qafarov",
+  "position": "İnformasiya Texnologiyaları Mütəxəssisi",
+  "website": "Veb səhifə:",
+  "github": "GitHub:",
+  "email": "Elektron poçt:",
+  "whatsapp": "WhatsApp:",
+  "description": "İT sahəsində 25 ildən çox təcrübəm var. Kadrların idarə olunması və əməkdaşların təlimində də təcrübəm var. Müxtəlif sistemlərin, o cümlədən CRM və ERP platformalarının quraşdırılması, inteqrasiyası və texniki dəstəyi ilə məşğulam. Həmçinin ağıllı ev sistemlərinin (avtomatlaşdırma cihazları, təhlükəsizlik kameraları və avadanlıqları) quraşdırılması, konfiqurasiyası və texniki dəstəyi üzrə, həmçinin kompüter şəbəkələrinin, routerlərin, switchlərin, serverlərin və əməliyyat sistemlərinin (Windows, Linux və sair) quraşdırılması və dəstəyi ilə də məşğulam.",
+  "experience": "Təcrübə",
+  "languages": "Dillər",
+  "education": "Təhsil",
+  "hobby": "Hobbilər",
+  "last_update": "Son yenilənmə",
+  "freelancer": "Serbest işçi",
+  "project_manager": "Layihə meneceri",
+  "cio": "Baş İnformasiya Direktoru",
+  "it_manager": "İnformasiya Texnologiyaları Meneceri",
+  "tech_dept_manager": "Texniki şöbə meneceri",
+  "it_engineer": "İT Xidmət mühəndisi",
+  "present": "Hal-hazırda",
+  "languages_list": [
+    "Azərbaycan (Ana dili)",
+    "Rus (Yaxşı)",
+    "İngilis (Texniki)"
+  ],
+  "education_list": [
+    "1993 - Ümumi təhsil. Bakı şəhəri 56 nömrəli Fizika-Riyaziyyat təmayüllü məktəb",
+    "1997 - Bakalavr. Azərbaycan Texniki Universiteti. A nömrəli diplom # 009831 - Radiotexnika"
+  ],
+  "hobby_list": [
+    "Proqramlaşdırma (HTML, CSS, JavaScript, Rust, Python, Excel)",
+    "Foto və Video (Çəkiliş, Yazı və Montaj)"
+  ],
+  "sip_description": [
+    "CRM və ERP sistemlərinin inteqrasiyası və Mobile Trade layihəsində işçi heyətinin təlimi",
+    "1C ticarət və anbar layihələri",
+    "Serverlər, Şəbəkələr, Nəzarət kameraları və digər sistemlər üçün IT Dəstəyi"
+  ],
+  "company_sip": "SIP Şirkəti",
+  "company_grand_hotel": "Qrand Hotel Avropa Bakı",
+  "company_forum": "FORUM Audit Şirkəti",
+  "company_alo_inform": "ALO inform Əlaqə Şirkəti",
+  "company_araz_computer": "Araz Kompüter Şirkəti"
+}

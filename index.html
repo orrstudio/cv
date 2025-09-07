@@ -5,14 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Oruc Qafarov CV</title>
+    <title data-translate="title">Oruc Qafarov CV</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <script src="menu.js" type="text/javascript"></script>
     <link rel="shortcut icon" href="./images/ORRlogo.png">
 
-        <!-- Переключатель темной темы страницы -->
-        <div class="theme-switch-wrapper"><label class="theme-switch"><input type="checkbox" class="theme-switch__checkbox"><div class="slider round"></div></label></div>
+    <!-- Language Selector -->
+    <div class="language-selector">
+        <select id="language-select" class="language-select" aria-label="Select language">
+            <option value="en">🇬🇧 English</option>
+            <option value="az">🇦🇿 Azərbaycanca</option>
+            <option value="ru">🇷🇺 Русский</option>
+        </select>
+    </div>
+
+    <!-- Theme Switcher -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch">
+            <input type="checkbox" class="theme-switch__checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
 
 </head>
 
@@ -23,13 +36,13 @@
 
     <section>
         <img src="./images/Orr888.jpg" alt="Oruc Qafarov" width="200" height="200">
-        <h1>Oruc Qafarov</h1>
-        <h2>Project manager</h2>
+        <h1 data-translate="full_name">Oruc Qafarov</h1>
+        <h2 data-translate="position">Project manager</h2>
 
         <div class="contacts">
             <div class="contact">
                 <div class="contact__type">
-                    Web Site:
+                    <span data-translate="website">Web Site:</span>
                 </div>
                 <div class="contact__value">
                     <a href="https://orrstudio.github.io" target="_blank">https://orrstudio.github.io</a>
@@ -37,7 +50,7 @@
             </div>
             <div class="contact">
                 <div class="contact__type">
-                    GitHub:
+                    <span data-translate="github">GitHub:</span>
                 </div>
                 <div class="contact__value">
                     <a href="https://github.com/OrrStudio">GitHub.com/OrrStudio</a>
@@ -45,7 +58,7 @@
             </div>
             <div class="contact">
                 <div class="contact__type">
-                    Email:
+                    <span data-translate="email">Email:</span>
                 </div>
                 <div class="contact__value">
                     <a href="mailto:orr888@gmail.com" target="_blank">Orr888@gmail.com</a>
@@ -53,7 +66,7 @@
             </div>
             <div class="contact">
                 <div class="contact__type">
-                    WhatsApp:
+                    <span data-translate="whatsapp">WhatsApp:</span>
                 </div>
                 <div class="contact__value">
                     <a href="https://api.whatsapp.com/send?phone=+994514414943" target="_blank">+994(51)441-49-43</a>
@@ -61,31 +74,31 @@
             </div>
         </div>
 
-        <div class="description">
+        <div class="description" data-translate="description">
             I have over 25 years of experience in the IT field. I am experienced in personnel management and staff training. I have worked on the installation, integration, and technical support of various systems, including CRM and ERP platforms. I am also skilled in the installation, configuration, and technical support of smart home systems (automation devices, security cameras, and equipment), as well as in the setup and maintenance of computer networks, routers, switches, servers, and operating systems (Windows, Linux, etc.).
         </div>
     </section>
         <hr>
     <section>
-        <h3>Experience</h3>
+        <h3 data-translate="experience">Experience</h3>
 
         <div class="experience">
-            <div class="experience__date">01.09.2016 - Present</div>
+            <div class="experience__date">01.09.2016 - <span data-translate="present">Present</span></div>
             <div class="experience__description">
-                <div class="experience__name">Freelancer</div>
+                <div class="experience__name" data-translate="freelancer">Freelancer</div>
             </div>
         </div>
 
         <div class="experience">
             <div class="experience__date">01.02.2013 - 01.09.2016</div>
             <div class="experience__description">
-                <div class="experience__name">Project manager</div>
-                <div class="experience__company">“SIP” Company <a href="http://www.sip.az">http://www.sip.az</a></div>
+                <div class="experience__name" data-translate="project_manager">Project manager</div>
+                <div class="experience__company"><span data-translate="company_sip">"SIP" Company</span> <a href="http://www.sip.az">http://www.sip.az</a></div>
                 <div class="experience__details">
-                    <ul>
-                        <li>CRM and ERP system integration and staff training in project Mobile Trade</li>
-                        <li>1C trade and warehouse projects</li>
-                        <li>IT Support for Servers, Networks, Surveillance Camera and other system</li>
+                    <ul id="sip-description">
+                        <li data-translate="sip_description.0">CRM and ERP system integration and staff training in project Mobile Trade</li>
+                        <li data-translate="sip_description.1">1C trade and warehouse projects</li>
+                        <li data-translate="sip_description.2">IT Support for Servers, Networks, Surveillance Camera and other system</li>
                     </ul>
                 </div>
             </div>
@@ -94,82 +107,83 @@
         <div class="experience">
             <div class="experience__date">01.08.2010 - 01.02.2013</div>
             <div class="experience__description">
-                <div class="experience__name">Freelancer</div>
+                <div class="experience__name" data-translate="freelancer">Freelancer</div>
             </div>
         </div>
 
         <div class="experience">
             <div class="experience__date">01.09.2001 - 01.08.2010</div>
             <div class="experience__description">
-                <div class="experience__name">Chief Information Officer (CIO)</div>
-                <div class="experience__company">“Grand Hotel Europe Baku” Company <a href="https://www.grand-europe.com">https://www.grand-europe.com</a></div>
+                <div class="experience__name" data-translate="cio">Chief Information Officer (CIO)</div>
+                <div class="experience__company"><span data-translate="company_grand_hotel">"Grand Hotel Europe Baku" Company</span> <a href="https://www.grand-europe.com">https://www.grand-europe.com</a></div>
             </div>
         </div>
 
         <div class="experience">
             <div class="experience__date">01.04.1999 - 01.05.2001</div>
             <div class="experience__description">
-                <div class="experience__name">Information Technology’s Manager</div>
-                <div class="experience__company">“FORUM” Audit company <a href="https://www.forum.baku.az">https://www.forum.baku.az</a></div>
+                <div class="experience__name" data-translate="it_manager">Information Technology's Manager</div>
+                <div class="experience__company"><span data-translate="company_forum">"FORUM" Audit company</span> <a href="https://www.forum.baku.az">https://www.forum.baku.az</a></div>
             </div>
         </div>
 
         <div class="experience">
             <div class="experience__date">01.05.1998 - 01.04.1999</div>
             <div class="experience__description">
-                <div class="experience__name">Manager of Technical department</div>
-                <div class="experience__company">“ALO inform” Communication Company</a></div>
+                <div class="experience__name" data-translate="tech_dept_manager">Manager of Technical department</div>
+                <div class="experience__company"><span data-translate="company_alo_inform">"ALO inform" Communication Company</span></a></div>
             </div>
         </div>
 
         <div class="experience">
             <div class="experience__date">01.07.1995 - 01.11.1997</div>
             <div class="experience__description">
-                <div class="experience__name">IT Service engineer</div>
-                <div class="experience__company">“Araz Computer” Company <a href="https://1385-az.all.biz">https://1385-az.all.biz</a></div>
+                <div class="experience__name" data-translate="it_engineer">IT Service engineer</div>
+                <div class="experience__company"><span data-translate="company_araz_computer">"Araz Computer" Company</span> <a href="https://1385-az.all.biz">https://1385-az.all.biz</a></div>
             </div>
         </div>
 
     </section>
         <hr>
         <section>
-            <h3>Languages</h3>
+            <h3 data-translate="languages">Languages</h3>
             <div>
-                <ul>
-                    <li>Azerbaijan (Native)</li>
-                    <li>Russian (Fine)</li>
-                    <li>English (Fluent)</li>
+                <ul id="languages-list">
+                    <li data-translate="languages_list.0">Azerbaijan (Native)</li>
+                    <li data-translate="languages_list.1">Russian (Fine)</li>
+                    <li data-translate="languages_list.2">English (Fluent)</li>
                 </ul>
             </div>
         </section>
         <hr>
         <section>
-            <h3>Education</h3>
+            <h3 data-translate="education">Education</h3>
             <div>
-                <ul>
-                    <li>1993 - General education. Secondary Physical-Mathemat School #56 in Baku</li>
-                    <li>1997 - Bachelor. Azerbaijan Technical University. Diploma A # 009831- Radiotechnic</li>
+                <ul id="education-list">
+                    <li data-translate="education_list.0">1993 - General education. Secondary Physical-Mathemat School #56 in Baku</li>
+                    <li data-translate="education_list.1">1997 - Bachelor. Azerbaijan Technical University. Diploma A # 009831- Radiotechnic</li>
                 </ul>
             </div>
         </section>
         <hr>
         <section>
-            <h3>Hobby</h3>
+            <h3 data-translate="hobby">Hobby</h3>
             <div>
-                <ul>
-                    <li>Programming (HTML, CSS, JavaScript, Rust, Python, Excel)</li>
-                    <li>Photo and Video (Shooting, Recording and Montage)</li>
+                <ul id="hobby-list">
+                    <li data-translate="hobby_list.0">Programming (HTML, CSS, JavaScript, Rust, Python, Excel)</li>
+                    <li data-translate="hobby_list.1">Photo and Video (Shooting, Recording and Montage)</li>
                 </ul>
             </div>
         </section>
                 <hr>
                 <p style="text-align: center;">
                 <img class="orrlogo" align="center" src="./images/ORRlogo.png" alt="Orr Logo" width="50">
-                <span style="text-align: center; font-size: 14px;"> Last Update: 7 September 2025
+                <span style="text-align: center; font-size: 14px;"> <span data-translate="last_update">Last Update</span>: 7 September 2025
 </span></p>
 </div>
 
     <script src='./js/dark_theme.js'></script>
+    <script src='./js/language.js'></script>
 </body>
 
 </html>
